@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/simulinktest_harness_cache/R2023a">
+  <simulinktest_harness_cache.Cache type="simulinktest_harness_cache.Cache" uuid="39067216-8606-4e5f-bed0-23fb015e99ee">
+    <inputHierarchyVector type="simulinktest_harness_cache.IOHierarchy" uuid="a427b20e-6142-4777-aac4-dd38d15c1a12">
+      <busType>BUSTYPE_NOT_BUS</busType>
+      <dataType>fixdt(&apos;double&apos;,&apos;DataTypeOverride&apos;,&apos;Off&apos;)</dataType>
+      <facadeName>SS</facadeName>
+      <isDataPort>true</isDataPort>
+    </inputHierarchyVector>
+    <inputHierarchyVector type="simulinktest_harness_cache.IOHierarchy" uuid="c6515eaa-5349-4e0f-8e8e-a23300bd46ce">
+      <busType>BUSTYPE_NOT_BUS</busType>
+      <dataType>fixdt(&apos;double&apos;,&apos;DataTypeOverride&apos;,&apos;Off&apos;)</dataType>
+      <facadeName>temp</facadeName>
+      <isDataPort>true</isDataPort>
+    </inputHierarchyVector>
+    <outputHierarchyVector type="simulinktest_harness_cache.IOHierarchy" uuid="ffe778a4-66d4-4e16-9418-604bd345c33a">
+      <busType>BUSTYPE_NOT_BUS</busType>
+      <dataType>fixdt(&apos;double&apos;,&apos;DataTypeOverride&apos;,&apos;Off&apos;)</dataType>
+      <facadeName>V1</facadeName>
+      <isDataPort>true</isDataPort>
+      <name>V1</name>
+    </outputHierarchyVector>
+    <outputHierarchyVector type="simulinktest_harness_cache.IOHierarchy" uuid="77f734a1-7d6b-4f14-9cba-c20c258199ff">
+      <busType>BUSTYPE_NOT_BUS</busType>
+      <dataType>fixdt(&apos;double&apos;,&apos;DataTypeOverride&apos;,&apos;Off&apos;)</dataType>
+      <facadeName>V2</facadeName>
+      <isDataPort>true</isDataPort>
+      <name>V2</name>
+    </outputHierarchyVector>
+    <usedVars>AAFJTQAAAAAOAAAAKAAAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAA=</usedVars>
+  </simulinktest_harness_cache.Cache>
+</MF0>

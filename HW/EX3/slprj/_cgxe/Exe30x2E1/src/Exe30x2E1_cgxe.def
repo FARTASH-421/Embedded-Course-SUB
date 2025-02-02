@@ -1,0 +1,4 @@
+LIBRARY Exe30x2E1_cgxe.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion

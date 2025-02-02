@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/Private/Class Term 8/Embedd/HW/EX3/fun_ert_rtw/build",
+  "command": "C:\\PROGRA~1\\MinGW\\bin\\G__~1.EXE -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=fun -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=1 -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DTERMFCN=1 -DTID01EQ=0 @CMakeFiles/fun_objects.dir/includes_CXX.rsp -O3 -DNDEBUG -o CMakeFiles\\fun_objects.dir\\fun.cpp.obj -c \"D:\\Private\\Class Term 8\\Embedd\\HW\\EX3\\fun_ert_rtw\\fun.cpp\"",
+  "file": "D:/Private/Class Term 8/Embedd/HW/EX3/fun_ert_rtw/fun.cpp"
+},
+{
+  "directory": "D:/Private/Class Term 8/Embedd/HW/EX3/fun_ert_rtw/build",
+  "command": "C:\\PROGRA~1\\MinGW\\bin\\G__~1.EXE -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=fun -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=1 -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DTERMFCN=1 -DTID01EQ=0 @CMakeFiles/fun.dir/includes_CXX.rsp -O3 -DNDEBUG -o CMakeFiles\\fun.dir\\ert_main.cpp.obj -c \"D:\\Private\\Class Term 8\\Embedd\\HW\\EX3\\fun_ert_rtw\\ert_main.cpp\"",
+  "file": "D:/Private/Class Term 8/Embedd/HW/EX3/fun_ert_rtw/ert_main.cpp"
+}
+]

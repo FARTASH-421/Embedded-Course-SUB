@@ -1,0 +1,45 @@
+CC     = "D:\Matlab\sys\lcc64\lcc64\bin\lcc64.exe"
+LD     = "D:\Matlab\sys\lcc64\lcc64\bin\lcclnk64.exe"
+LIBCMD = "D:\Matlab\sys\lcc64\lcc64\bin\lcclib64.exe"
+CFLAGS = -w -dll -noregistrylookup  -c -Zp8 -DLCC_WIN64 -DMATLAB_MEX_FILE -nodeclspec  
+LDFLAGS = -s -dll -L"D:\Matlab\sys\lcc64\lcc64\lib64" -entry LibMain -map sfun.map 
+LIBFLAGS = 
+
+OBJECTS = \
+	"c_mexapi_version.obj"\
+	"lccstub.obj"\
+	"Ex3EMT_cgxe.obj"\
+	"m_dCPOFtT6tl0tahhA1iZ8uB.obj"\
+	"Ex3EMT_cgxe_registry.obj"\
+	"Ex3EMT_cgxe.def"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmx.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmex.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmat.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libfixedpoint.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libut.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmwmathutil.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libemlrt.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmwcgxert.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmwcgxeooprt.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmwslexec_simbridge.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmwslccrt.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmwstringutil.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libcovrt.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmwsl_sfcn_cov_bridge.lib"\
+	"D:\Matlab\extern\lib\win64\microsoft\libmwdsp_halidesim.lib"\
+
+INCLUDE_PATH= -I"D:\Matlab\extern\include"  -I"D:\Matlab\simulink\include"  -I"D:\Matlab\rtw\c\src"  -I"D:\Private\class term 8\Embedd\HW\EX3\slprj\_cgxe\Ex3EMT\src"  -I"D:\Private\class term 8\Embedd\HW\EX3"  -I"D:\Private\Class Term 8\Embedd\HW\EX3\slprj\_cprj"  -I"D:\Matlab\sys\lcc64\lcc64\include64"  -I"D:\Private\Class Term 8\Embedd\HW\EX3\slprj\_cgxe\Ex3EMT\src"  -I"D:\Private\Class Term 8\Embedd\HW\EX3" 
+ 
+
+Ex3EMT_cgxe.mexw64 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Ex3EMT_cgxe.mexw64 @Ex3EMT_cgxe.lmko
+c_mexapi_version.obj :	"D:\Matlab\extern\version\c_mexapi_version.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Matlab\extern\version\c_mexapi_version.c"
+lccstub.obj :	"D:\Matlab\sys\lcc64\lcc64\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Matlab\sys\lcc64\lcc64\mex\lccstub.c"
+Ex3EMT_cgxe.obj :	"Ex3EMT_cgxe.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Ex3EMT_cgxe.c"
+m_dCPOFtT6tl0tahhA1iZ8uB.obj :	"m_dCPOFtT6tl0tahhA1iZ8uB.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "m_dCPOFtT6tl0tahhA1iZ8uB.c"
+Ex3EMT_cgxe_registry.obj :	"Ex3EMT_cgxe_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Ex3EMT_cgxe_registry.c"

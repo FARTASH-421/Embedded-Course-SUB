@@ -1,0 +1,4 @@
+LIBRARY Ex3EMT_cgxe.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
